@@ -1,1 +1,169 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    background-color: #00030C;
+}
+
+p, h1, h2{
+    color: white;
+    font-family: "inter", sans-serif;
+}
+
+/* parte do header */
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../img/Background.png);
+    width: auto;
+    height: 680px;
+    background-size: cover;
+}
+
+div.cabecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 588px;
+    height: 431px;
+    margin-left: 54px;
+}
+
+header h1{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.alura-combo{
+    width: 348px;
+    height: 100px;
+}
+
+.assinarCombo{
+    background-color: #167BF7;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.assinarPadrao{
+    border: 1px solid #167BF7;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+/* botoes de assinar */
+.assinarCombo:hover, .assinarPadrao:hover, .assinar:hover{
+    font-size: 20px;
+    border: 5px solid #943636;
+    transition: 0.7s;
+    
+}
+
+/* botao de assinar */
+.assinarCombo:hover, .assinar:hover{
+    background-color: #943636;
+}
+
+.termoPequeno{
+    font-size: 12px;
+}
+
+
+/* parte do main */
+
+
+main.container{
+    display: flex;
+    flex-direction: column;
+}
+
+section.container__secao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+section.container__secao__extra{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+
+article.container__secao__texto{
+    width: 588px;
+    align-self: center;
+}
+
+div.container__secao__plataformas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* parte do main do texto */
+
+main h2{
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+p.assinar{
+    background-color: #167BF7;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+/* parte do footer */
+
+footer.container__rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+nav.container__rodape__navecacao{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.container__rodape__navecacao p:hover{
+    text-decoration: underline;
+}
+
+div.container__rodape__informacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 1200px;
+}
+
+
+
+p.preguica{
+    margin-bottom: 30px;
+}
